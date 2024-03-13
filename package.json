@@ -1,0 +1,20 @@
+{
+  "name": "sparta_type_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/4-index.js",
+    "start:enum": "tsc && node ./dist/1-enum.js",
+    "start:object": "tsc && node ./dist/2-object.js",
+    "start:utility": "tsc && node ./dist/3-utility.js",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
